@@ -163,4 +163,18 @@ body {
     .text-box small {
         margin-bottom: 10px;
     }
+
+    .right-container {
+        left: 0;
+    }
+
+    .left-container img, .right-container img {
+        left: 10px;
+    }
+
+    .left-container-arrow, .right-container-arrow {
+        border-right: 15px solid var(--bglight);
+        border-left: 0;
+        left: 15px;
+    }
 }
